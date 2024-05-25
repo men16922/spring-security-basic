@@ -1,15 +1,11 @@
 package me.whiteship.demospringsecurityform.form;
 
 import me.whiteship.demospringsecurityform.account.Account;
-import me.whiteship.demospringsecurityform.account.AccountContext;
 import me.whiteship.demospringsecurityform.account.AccountRepository;
-import me.whiteship.demospringsecurityform.account.UserAccount;
 import me.whiteship.demospringsecurityform.book.BookRepository;
 import me.whiteship.demospringsecurityform.common.CurrentUser;
 import me.whiteship.demospringsecurityform.common.SecurityLogger;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.annotation.AuthenticationPrincipal;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
